@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+var usage = 'Usage: mausolus -p [password]';
+var argv = require('minimist')(process.argv.slice(2));
+if (!argv.p) {
+  console.error(usage);
+  return;
+}
+var crypto = require('crypto');
+var bcrypt = require('bcrypt');
+bcrypt.genSalt(10, function(err, salt) {
+  bcrypt.hash('Bacon', salt, function(err, hash) {
+    console.log(hash);
+  });
+});

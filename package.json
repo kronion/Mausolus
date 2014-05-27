@@ -1,0 +1,20 @@
+{
+  "name": "Mausolus",
+  "version": "0.0.0",
+  "description": "A simple password manager using AES-256 encryption",
+  "main": "mausolus",
+  "dependencies": {
+    "bcrypt": "^0.7.7",
+    "minimist": "^0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kronion/Mausolus"
+  },
+  "author": "Collin Stedman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kronion/Mausolus/issues"
+  },
+  "homepage": "https://github.com/kronion/Mausolus"
+}

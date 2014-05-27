@@ -1,0 +1,23 @@
+{
+  "name": "Mausolus",
+  "version": "0.0.0",
+  "dependencies": {
+    "bcrypt": {
+      "version": "0.7.7",
+      "from": "bcrypt@",
+      "resolved": "https://registry.npmjs.org/bcrypt/-/bcrypt-0.7.7.tgz",
+      "dependencies": {
+        "bindings": {
+          "version": "1.0.0",
+          "from": "bindings@1.0.0",
+          "resolved": "https://registry.npmjs.org/bindings/-/bindings-1.0.0.tgz"
+        }
+      }
+    },
+    "minimist": {
+      "version": "0.1.0",
+      "from": "minimist@",
+      "resolved": "https://registry.npmjs.org/minimist/-/minimist-0.1.0.tgz"
+    }
+  }
+}
